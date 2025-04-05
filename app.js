@@ -128,7 +128,16 @@ function loadGameImages() {
             title: "Weather App",
             description: "Stay ahead of the weather with real-time forecasts, alerts, and radar updates.",
             gameUrl: "https://weather-zeta-weld.vercel.app/"
-        }
+            
+        },
+        {
+            id: 5,
+            imageUrl: "https://i.ibb.co/chgC2MT7/2025-04-04-22-16-28-Chess-Mozilla-Firefox.png",
+            title: "Chess",
+            description: "Play chess, either multiplayer or with a CPU.",
+            gameUrl: "https://grand-marshmallow-9fe2bb.netlify.app/"
+            
+        },
     ];
     
     // Update each game card with its data
