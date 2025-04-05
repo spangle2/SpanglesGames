@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initCursorFollow();
     initGameLinks();
     applyCardAnimations();
+    loadGameImages();
 });
 
 // Custom cursor follower
@@ -97,6 +98,45 @@ function applyCardAnimations() {
     });
 }
 
+function loadGameImages() {
+    // Define your game data with your ImgBB image URLs
+    const gameData = [
+        {
+            id: 1,
+            imageUrl: "https://i.ibb.co/n8mJtJw9/2025-04-04-20-45-42-Base64-Encoder-Decoder-Mozilla-Firefox.png",
+            title: "Base64 Encoder/Decoder",
+            description: "Convert text to and from Base64 encoding",
+            gameUrl: "https://example.com/base64"
+        },
+        {
+            id: 2,
+            imageUrl: "https://i.ibb.co/chL4hnVX/2025-04-04-20-45-33-Interactive-Periodic-Table-Mozilla-Firefox.png",
+            title: "Interactive Periodic Table",
+            description: "Explore chemical elements and their properties",
+            gameUrl: "https://example.com/periodic-table"
+        },
+        {
+            id: 3,
+            imageUrl: "https://i.ibb.co/JRj2c4wn/2025-04-04-20-45-10-Advanced-Calculator-Mozilla-Firefox.png",
+            title: "Advanced Calculator",
+            description: "Perform complex mathematical calculations",
+            gameUrl: "https://example.com/calculator"
+        }
+    ];
+    
+    // Update each game card with its data
+    gameData.forEach(game => {
+        updateGameContent(
+            game.id,
+            game.imageUrl,
+            game.gameUrl,
+            game.title,
+            game.description
+        );
+    });
+}
+
+
 // Function to update game links and images
 function updateGameContent(gameNumber, imageUrl, gameUrl, title, description) {
     const gameCard = document.querySelector(`[data-game="game${gameNumber}"]`);
@@ -125,6 +165,3 @@ function updateGameContent(gameNumber, imageUrl, gameUrl, title, description) {
         if (descElement) descElement.textContent = description;
     }
 }
-
-// Example usage (you would call this with your own values):
-// updateGameContent(1, 'https://your-image-url.com/game1.jpg', 'https://your-game-url.com/game1', 'Your Game Title', 'Your game description');
