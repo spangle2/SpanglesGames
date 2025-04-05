@@ -125,9 +125,9 @@ function loadGameImages() {
         {
             id: 4,
             imageUrl: "https://i.ibb.co/JRj2c4wn/2025-04-04-20-45-10-Advanced-Calculator-Mozilla-Firefox.png",
-            title: "Advanced Calculator",
-            description: "Perform complex mathematical calculations",
-            gameUrl: "https://spangle-s-calculator.vercel.app/"
+            title: "Weather App",
+            description: "Stay ahead of the weather with real-time forecasts, alerts, and radar updates.",
+            gameUrl: "https://weather-zeta-weld.vercel.app/"
         }
     ];
     
