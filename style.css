@@ -245,6 +245,10 @@ footer a:hover {
     animation-delay: 1s;
 }
 
+.game-card:nth-child(5) {
+    animation-delay: 1s;
+}
+
 /* Responsive styles */
 @media (max-width: 768px) {
     body {
