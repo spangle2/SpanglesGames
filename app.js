@@ -106,21 +106,21 @@ function loadGameImages() {
             imageUrl: "https://i.ibb.co/n8mJtJw9/2025-04-04-20-45-42-Base64-Encoder-Decoder-Mozilla-Firefox.png",
             title: "Base64 Encoder/Decoder",
             description: "Convert text to and from Base64 encoding",
-            gameUrl: "https://example.com/base64"
+            gameUrl: "https://base64-decode-orpin.vercel.app/"
         },
         {
             id: 2,
             imageUrl: "https://i.ibb.co/chL4hnVX/2025-04-04-20-45-33-Interactive-Periodic-Table-Mozilla-Firefox.png",
             title: "Interactive Periodic Table",
             description: "Explore chemical elements and their properties",
-            gameUrl: "https://example.com/periodic-table"
+            gameUrl: "https://periodic-table-ochre-phi.vercel.app/"
         },
         {
             id: 3,
             imageUrl: "https://i.ibb.co/JRj2c4wn/2025-04-04-20-45-10-Advanced-Calculator-Mozilla-Firefox.png",
             title: "Advanced Calculator",
             description: "Perform complex mathematical calculations",
-            gameUrl: "https://example.com/calculator"
+            gameUrl: "https://spangle-s-calculator.vercel.app/"
         }
     ];
     
