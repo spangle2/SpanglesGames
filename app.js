@@ -121,6 +121,13 @@ function loadGameImages() {
             title: "Advanced Calculator",
             description: "Perform complex mathematical calculations",
             gameUrl: "https://spangle-s-calculator.vercel.app/"
+        },
+        {
+            id: 4,
+            imageUrl: "https://i.ibb.co/JRj2c4wn/2025-04-04-20-45-10-Advanced-Calculator-Mozilla-Firefox.png",
+            title: "Advanced Calculator",
+            description: "Perform complex mathematical calculations",
+            gameUrl: "https://spangle-s-calculator.vercel.app/"
         }
     ];
     
