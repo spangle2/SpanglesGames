@@ -132,10 +132,10 @@ function loadGameImages() {
         },
         {
             id: 5,
-            imageUrl: "https://i.ibb.co/chgC2MT7/2025-04-04-22-16-28-Chess-Mozilla-Firefox.png",
+            imageUrl: "https://i.ibb.co/Q7jdQckp/2025-04-05-16-01-40-Chess-Mozilla-Firefox.png",
             title: "Chess",
             description: "Play chess, either multiplayer or with a CPU.",
-            gameUrl: "https://grand-marshmallow-9fe2bb.netlify.app/"
+            gameUrl: "https://spangles-chess.netlify.app/"
             
         },
     ];
